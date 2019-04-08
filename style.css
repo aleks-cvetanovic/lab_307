@@ -223,6 +223,15 @@ header {
 }
 
 
+.start-pic {
+    width:1200px;
+    margin-top:100px;
+    margin:0 auto;
+    opacity: 0.6;
+    height:600px;
+}
+
+
 .dropbtn:hover {
     cursor:pointer;
     background-color: rgb(228, 227, 227);
