@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
     margin:0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +36,11 @@ height:600px;
 }
 
 .codepen {
-    height:700px;                               
+    width:1000px;
+}
+
+.codepen-1 p {
+    width:1000px;
 }
 
 
@@ -79,6 +84,24 @@ height:600px;
 
 }
 
+.mf-a-button {
+    margin-left:0;
+    width:100%;
+    padding:20px;
+    background-color:rgb(221, 221, 221);
+    border-style:none;
+    border-bottom: 2px solid rgb(183, 183, 183);
+    font-size:15px;
+
+}
+
+.mf-a-button:hover {
+    background-color:rgb(206, 206, 206);
+    cursor:pointer;
+
+
+}
+
 
 
 
@@ -100,9 +123,7 @@ height:600px;
     background-color:rgb(204, 205, 206);
     width:100%;
     padding:0;
-}
 
-.div-zwei {
 }
 
 .div-drei {
@@ -110,7 +131,12 @@ height:600px;
     background-color:rgb(204, 205, 206);
     width:100%;
     padding:0;
+    padding-top:50px;
 
+}
+
+.drei-text {
+    width:600px;
 }
 
 .div-vier {
@@ -118,11 +144,23 @@ height:600px;
     background-color:rgb(204, 205, 206);
     width:100%;
     padding:0;
+    padding-top:50px;
 
 }
 
-.div-vier p{
+ p{
     margin:0;
+}
+
+
+
+.div-fünf {
+    list-style-type: none;
+    background-color:rgb(204, 205, 206);
+    width:100%;
+    padding:0;
+    padding-top:50px;
+
 }
 
 .dropdown-content a {
@@ -201,12 +239,13 @@ height:600px;
 }
 
 header {
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255,0.92);
     position: fixed;
     top:0;
     width:100%;
     box-shadow: 0px 0px 35px rgba(94, 99, 100,0.5);
     opacity: 20px;
+    z-index: 10;
 }
 
 .dropbtn {
@@ -214,11 +253,10 @@ header {
     height:max-content;
     padding: 18px 100px 18px 100px;
     float:right;
-    background-color:rgb(245, 244, 244);
     color: black;
     width:fit-content;
     font-weight: bold;
-
+background-color: white;
 
 }
 
@@ -229,12 +267,13 @@ header {
     margin:0 auto;
     opacity: 0.6;
     height:600px;
+    background-image:url("bilder/js-php-logo.png");
+    z-index: 5;
 }
 
 
 .dropbtn:hover {
     cursor:pointer;
-    background-color: rgb(228, 227, 227);
     
 }
 
@@ -390,12 +429,14 @@ div {
 
 .div-eins {
     display:none;
-}
-
-
-main div {
     width:600px;
 }
+
+.same {
+    width:600px;
+}
+
+
 
 main img {
 margin:0 auto;

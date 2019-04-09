@@ -2,24 +2,27 @@ $(".div-eins").show();
 
 
 $(".zh-button").on("click",function(){
-    $(".div-eins").slideToggle();
+    $(".div-eins").slideToggle(700);
 }
 )
 
 
 $(".zh-a-button").on("click",function(){
-    $(".div-drei").slideToggle();
+    $(".div-drei").slideToggle(700);
 }
 )
 
 
 $(".r-a-button").on("click",function(){
-    $(".div-vier").slideToggle();
+    $(".div-vier").slideToggle(700);
 }
 )
 
 
-
+$(".mf-a-button").on("click",function(){
+  $(".div-fünf").slideToggle(700);
+}
+)
 
 
 const btn = document.querySelector('.js-button')
