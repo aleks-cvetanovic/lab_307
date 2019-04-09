@@ -1,3 +1,6 @@
+//EINBLENDEN DER ERKLÄRUNGEN
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 $(".div-eins").show();
 
 
@@ -25,6 +28,36 @@ $(".mf-a-button").on("click",function(){
 )
 
 
+
+
+//VIDEO ANSICHT
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+console.clear();
+
+var videoEl = document.querySelector('video');
+document.querySelector('.video-button').addEventListener('click', 
+                                                            function(){
+  if(this.dataset.aperture === 'open') {
+    this.dataset.aperture = 'closed';
+    videoEl.pause();
+    videoEl.progress = 0;
+  } else {
+    this.dataset.aperture = 'open';
+    videoEl.play();
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+/*ausprobiert
 const btn = document.querySelector('.js-button')
 const btnText = btn.textContent
 const width = btn.clientWidth
@@ -81,3 +114,5 @@ svg.hover(
 
 .click(() => btn.click())
 btn.replaceWith(svg.node)
+
+*/
